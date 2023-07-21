@@ -184,11 +184,10 @@ a {
 
 @media screen and (max-width: 550px) {
 .header__logo{
-  display: block;
+  display: none;
 }
   .header__menu-mobile{
     font-size: 13px;
-    padding-left: 130px;
     position: absolute;
   }
 
