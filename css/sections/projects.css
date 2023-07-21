@@ -1,0 +1,120 @@
+.projects {
+    padding: 64px;
+  
+    display: flex;
+    flex-direction: column;
+  
+    background-color: var(--primary-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+    overflow: hidden;
+  }
+  
+  
+  .projects__title {
+    font-size: 56px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    line-height: 78px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .projects__filters {
+    margin-top: 48px;
+    max-width: 100%;
+    overflow-y: auto;
+  
+    display: flex;
+    justify-content: center;
+    gap: 25px; 
+  }
+  
+  .container{
+    display: flex;
+    gap: 12px;
+    padding: 30px;
+    align-items: center;
+    scroll-snap-type: y mandatory;
+    overflow-x: auto;
+    }    
+
+  
+  .projects__card {
+    padding: 38px;
+    min-width: 260px;
+    height: fit-content;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+    
+    background: #fff;
+    border-radius: 36px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+
+  .projects__card-image {
+    width: 110px;
+    height: 84px;
+    object-fit: contain;
+  }
+  
+  .projects__card-title {
+    margin-top: 20px;
+  
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: var(--playfair-display);
+    text-align: center;
+  }
+  
+  .projects__card-details {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  
+  .projects__card-rating p {
+    font-size: 10px; 
+    font-family: var(--plus-jakarta-sans);
+  }
+  
+  .projects__card.active-card {
+    min-width: 250px;
+  }
+
+
+
+
+  .projects__card.active-card .projects__card-image {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .projects__card.active-card .projects__card-title {
+    color: var(--black-300);
+    font-size: 25px;
+  }
+  
+  
+  .projects__card.active-card .projects__card-rating img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .projects__card.active-card .projects__card-rating p {
+    font-size: 15px;
+    color: var(--bleck-400);
+  }
+  
+::-webkit-scrollbar{
+  height: 5px;
+  background-color: var(--color-creamson);
+  border-radius: 10px;
+}
+

@@ -1,0 +1,153 @@
+.skills {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.skills__discover {
+  position: absolute;
+  top: 44%;
+  left: 44%;
+  z-index: 1;
+
+  width: 160px;
+  height: 160px;
+
+  border-radius: 100%;
+  background-color: var(--secondary-color);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills__discover p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--plus-jakarta-sans);
+
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.skills-sushi,
+.skills-drinks {
+  width: 100%;
+  min-height: 640px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.skills__content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 32px 64px;
+}
+
+.skills__list {
+  list-style: none;
+
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills__list li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+
+  min-width: 210px;
+}
+
+.skills__icon {
+  width: 24px;
+  height: 24px;
+
+  border-radius: 100%;
+  background-color: var(--primary-color);
+}
+
+.skills__icon img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.skills__list p {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--plus-jakarta-sans);
+
+  color: var(--secondary-color);
+}
+
+.skills__image {
+  flex: 1;
+
+  position: relative;
+  padding: 32px 64px;
+
+  background-color: var(--color-white);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.skills__image img {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
+/* Arrows */
+.skills__arrow {
+  position: absolute;
+  z-index: 1;
+}
+
+.skills__arrow img {
+  object-fit: contain;
+}
+
+.skills__arrow-left {
+  left: -2.5px;
+  top: 12%;
+}
+
+.skills__arrow-left img,
+.skills__arrow-top img {
+  width: auto;
+  height: 100%;
+}
+
+.skills__arrow-top {
+  top: -10.5px;
+  left: 12%;
+}
+
+.skills__arrow-bottom {
+  bottom: -6.5px;
+  right: 12%;
+}
+
+.skills__arrow-bottom img,
+.skills__arrow-right img {
+  width: 100%;
+  height: auto;
+}
+
+.skills__arrow-right {
+  right: -2.5px;
+  bottom: 12%;
+}
+
+
