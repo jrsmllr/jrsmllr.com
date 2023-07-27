@@ -165,6 +165,9 @@ a {
 
   .header__menu-mobile{
     font-size: 17px;
+    text-align:center;
+    width: 100%;
+    
   }
 
   .about-me__image {
