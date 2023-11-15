@@ -49,6 +49,7 @@
 }
 
 .hero-content-info {
+    text-alignment: center;
     padding: 64px;
     flex: 1;
     display:flex;
